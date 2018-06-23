@@ -1,8 +1,11 @@
 body {
     font-family: 'Nunito', sans-serif;
-    background-color: #f5f5f5;
+    box-sizing: border-box;
+    outline: none;
+    color: #444;
+    letter-spacing: 1px;
     height: 100vh;
-    background: url("http://bit.ly/ui-bg");
+    background-image: url(../img/client360-bg-1.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -20,7 +23,7 @@ body {
     margin: 0 auto;
 }
 
-#client-list-ul{
+#client-list-ul {
     min-width: 500px;
     background-color: #fffbfb;
     padding: 20px 20px 5px;
@@ -40,11 +43,11 @@ body {
     border-bottom: none;
 }
 
-li div{
+li div {
     display: inline-block;
 }
 
-.ticker{
+.ticker {
     background: #7360db;
     padding: 2px 10px;
     padding: 6px;
@@ -62,7 +65,7 @@ li div{
 
 }
 
-.firstName, .lastName, .stockPrice {
+.client {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #777;
@@ -84,7 +87,7 @@ li div{
 
 }
 
-.price:hover{
+.price:hover {
     border-bottom: 2px solid #33a758;
     box-shadow: 3px 7px 15px #ddd;
     transition: box-shadow .5s ease;
