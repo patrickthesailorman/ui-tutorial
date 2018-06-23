@@ -60,4 +60,12 @@ li div{
     box-shadow: 0px 2px 5px #ac9dff;
 }
 
+.firstName, .lastName, .stockPrice {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #777;
+    font-size: 12px;
+}
+
+
 
