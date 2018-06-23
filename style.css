@@ -84,4 +84,11 @@ li div{
 
 }
 
+.price:hover{
+    border-bottom: 2px solid #33a758;
+    box-shadow: 3px 7px 15px #ddd;
+    transition: box-shadow .5s ease;
+}
+
+
 
